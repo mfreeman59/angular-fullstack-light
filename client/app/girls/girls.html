@@ -1,0 +1,31 @@
+<div id="wrap">
+  <header id="header" role="banner">
+    <h1>AV Injector</h1>
+  </header>
+
+  <main id="main" role="main">
+  <div id="container">
+    <section class="sec01">
+      <h2>新着AV女優</h2>
+      <ul class="listThumb01 row">
+        <li have-details ng-repeat="girlNew in girls.girlsNew" class="col-xs-4 col-md-2" data-id="{{girlNew.id}}">
+          <dl>
+            <dd><img src="{{girlNew.imgSrc}}" alt="{{girlNew.name}}"></dd>
+            <dt>{{girlNew.name}}</dt>
+          </dl>
+        </li>
+      </ul>
+      <h2>オススメAV女優</h2>
+      <ul class="listThumb01 row">
+        <li have-details ng-repeat="girlRecommended in girls.girlsRecommended" class="col-xs-4 col-md-2" data-id="{{girlRecommended.id}}">
+          <dl>
+            <dd><img src="{{girlRecommended.imgSrc}}" alt="{{girlRecommended.name}}"></dd>
+            <dt>{{girlRecommended.name}}</dt>
+          </dl>
+        </li>
+      </ul>
+
+    <section girl-details ng-include="'app/girls/girls.details.html'" id="js-modal" class="detailModal"></section>
+  </div>
+  </main>
+</div>

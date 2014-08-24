@@ -1,0 +1,6 @@
+/dist/
+.sass-cache/
+client/assets/css/
+bower_components/
+node_modules/
+*.swp

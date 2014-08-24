@@ -1,0 +1,29 @@
+{
+  "name": "tweeder",
+  "version": "0.0.0",
+  "authors": [
+    "Kengo.MATSUDA"
+  ],
+  "description": "Twitter client made by SPA",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "devicejs": "*",
+    "normalize.css": "~3.0.1",
+    "jquery": "1",
+    "jquery.easing": "~1.3.0",
+    "html5shiv": "~3.7.2",
+    "angular-ui-router": "~0.2.10",
+    "angular-bootstrap": "~0.11.0",
+    "bootstrap": "~3.2.0",
+    "angular-animate": "~1.2.23",
+    "fontawesome": "~4.1.0"
+  }
+}
